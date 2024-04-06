@@ -27,7 +27,7 @@ export const UserList = (props: UserListPropsType) => {
                 id={`hw01-user-${user.id}`}>
               <strong>{user.name}</strong> (Age: {user.age})
               <strong> Address:</strong>
-              {user.address.city}, {user.address.city}
+              {user.address.street}, {user.address.city}
             </li>
           )
         })}
